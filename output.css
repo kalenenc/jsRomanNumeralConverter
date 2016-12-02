@@ -1,0 +1,43 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("https://lonelyplanetimages.imgix.net/mastheads/stock-photo-roman-sunset-77415821.jpg?sharp=10&vib=20&w=1200");
+  background-size: 100%;
+  background-origin: fixed;
+  color: #604D53;
+  font-family: 'Julius Sans One', sans-serif; }
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  background: #ffae9e;
+  transform: translateY(70%);
+  box-shadow: 10px 10px 22px 2px rgba(0, 0, 0, 0.22); }
+  .container h1 {
+    padding: 10px; }
+  .container .input {
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 1.5em;
+    text-align: right;
+    margin: 20px;
+    padding: 5px; }
+  .container button {
+    background: pink;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #9DA3A4;
+    color: #EBEBD3;
+    width: 20%;
+    font-size: 1.2em; }
+  .container h3.converted {
+    padding: 20px; }
+
+/*# sourceMappingURL=output.css.map */
